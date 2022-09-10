@@ -22,20 +22,12 @@ export const fadeAndSlide = {
     transition: { duration: 0.5, ease: "easeOut" },
   },
 };
-
-export const blinkingColor = {
-  hidden: { opacity: 0, color: "#000" },
+export const fadeAndSlide1 = {
+  hidden: { x: 500, opacity: 0 },
   show: {
-    color: "#fff",
+    x: 0,
     opacity: 1,
-    transition: {
-      delay: 1,
-      type: "spring",
-      bounce: 0.5,
-      duration: 0.1,
-      repeat: 6,
-      repeatType: "reverse",
-    },
+    transition: { duration: 1.2, ease: "easeInOut" },
   },
 };
 

@@ -18,6 +18,10 @@ const Home = () => {
             JACK IN
           </Styledbutton>
         </Link>
+        <p>
+          Cyberpunk and Cyberpunk 2077 is a registered trademark of CD Projekt
+          Red all rights reserved
+        </p>
       </StyledContainer>
     </StyledHome>
   );
@@ -41,6 +45,9 @@ const StyledContainer = styled(motion.div)`
   flex-direction: column;
   padding: 80px 40px;
   height: 100%;
+  p {
+    margin-top: 5rem;
+  }
 `;
 const StyledImg = styled(motion.div)`
   align-self: center;
@@ -70,8 +77,8 @@ const Styledbutton = styled(motion.div)`
   justify-content: center;
 
   :hover {
-    background-color: #9fb4ff;
-    box-shadow: 0 0 10px 0 #9fb4ff inset, 0 0 10px 4px #9fb4ff;
+    background-color: #ff4a4a;
+    box-shadow: 0 0 10px 0 #ff4a4a inset, 0 0 10px 4px #ff4a4a;
     transition: 0.3s;
     color: #fff;
   }

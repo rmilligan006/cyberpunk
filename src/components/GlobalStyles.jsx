@@ -27,7 +27,7 @@ h2{
     font-size: 3rem;
     font-family: 'Antonio', sans-serif;
     font-weight: lighter;
-    color: #790252;
+    color: #293462;
 }
 h3 {
     font-size: 1.5rem;
